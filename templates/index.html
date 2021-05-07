@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Cube お問い合わせ</title>
+</head>
+<body>
+    <h1>お問い合わせフォーム</h1>
+    <form action="/SendMail" method="POST">
+        <label>メールアドレス</label>
+        <input type="text" name="Mail" placeholder="メールアドレス">
+        <br>
+        <label>ユーザー名</label>
+        <input type="text" name="Name" placeholder="ユーザー名">
+        <br>
+        <label>件名</label>
+        <input type="text" name="Subject" placeholder="件名">
+        <br>
+        <label>お問い合わせ内容</label>
+        <input type="text" name="Text" placeholder="お問い合わせ内容">
+        <br>
+        <input type="submit" value="登録">
+    </form>
+</body>
+</html>
